@@ -11,26 +11,110 @@
   background-color:#ffffff;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
+/*html {
+  background: url(assets/images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}*/
+
 
 #bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
   height: 200%;
+/*  overflow: auto;*/
+  z-index:-10;
 }
 
 #bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
   min-width: 50%;
   min-height: 50%;
+/*  overflow: auto;*/
+}
+
+header {
+  overflow: auto;
+  padding: 15px 45px;
+  border-bottom: 1px solid #fff;
+}
+
+#logo {
+  float: left;
+  overflow: auto;
+}
+
+#nav {
+  float: right;
+  overflow: auto;
+}
+
+#nav li {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  text-transform: uppercase;
+}
+
+main a {
+  border-radius: 6px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.menu-feature {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 20px 40px 8px;
+  margin: 20px 20px;
+}
+
+.menu-feature img {
+  border-radius: 200px;
+  border: 1px solid #519872;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 15px 45px;
+
+}
+
+#austin {
+  float: left;
+  width: 48%;
+  border-right: 1px solid #fff;
+  padding: 15px 0;
+}
+
+#sanfran {
+  float: right;
+  width: 48%;
+/*  border-left: 1px solid #fff;*/
+  padding: 15px 0;
+}
+
+#icon {
+  padding: 20px 0;
+  text-align: center;
+  clear: both;
+  border-top: 1px solid #fff;
 }
